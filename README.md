@@ -1,4 +1,4 @@
-## Disala-RustDesk-Windows-10-RDP-🇱🇰 
+## new tech delhi-RustDesk-Windows-10-RDP-🇱🇰 
 
 # Read This Before Rushing To Actions Tab 💀
 
