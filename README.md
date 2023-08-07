@@ -51,7 +51,7 @@ VM features:
 
 #You need proof just goto Action Tab And Watch....
 
-# [Watch Tutorial If You Dosen't Understand This.](https://youtu.be/u3hHCQPACmY)
+# [Watch Tutorial If You Dosen't Understand This.](https://youtu.be/QStC8KCPSt8)
 
 ### Brought To You By Disala 💀 , Its Functional 😗.
 ### You Can See ID , Pass And Cool Ascki Art 
