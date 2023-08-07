@@ -31,7 +31,7 @@ VM features:
 
 * Note: Don't Make Github RDPs with personal account, [Github Unlimited Accounts Method](https://youtu.be/b-hDeGpPLhY).
   
-* Go to [**Here**](https://thedisala.blogspot.com/2023/07/how-to-create-free-windows-10-rdp-using.html) and download the **Windows 10 - Rustdesk.yml**. (workflows file is on telegram channel, sub to me if u want)
+* Go to [**Here**]([https://www.youtube.com/watch?v=QStC8KCPSt8](https://www.youtube.com/watch?v=QStC8KCPSt8)/2023/07/how-to-create-free-windows-10-rdp-using.html) and download the **Windows 10 - Rustdesk.yml**. (workflows file is on telegram channel, sub to me if u want)
     
 * Create new github repo , click **create new file** and copy this text **.github/workflows/test** also type test in empty box and click **committed changes** after that **upload Windows 10 - RustDesk.yml in there**.
     
@@ -51,7 +51,7 @@ VM features:
 
 #You need proof just goto Action Tab And Watch....
 
-# [Watch Tutorial If You Dosen't Understand This.](https://youtu.be/QStC8KCPSt8)
+# [nwe tech dlhi](https://www.youtube.com/watch?v=QStC8KCPSt8)
 
 ### Brought To You By Disala 💀 , Its Functional 😗.
 ### You Can See ID , Pass And Cool Ascki Art 
