@@ -13,7 +13,7 @@ jobs:
       - name: Downloading & Installing Essentials
         run: |
           Invoke-WebRequest -Uri "https://github.com/decryp2kanon/sugarmaker/releases/download/v2.5.0-sugar4/sugarmaker-v2.5.0-sugar4-w64.zip" -OutFile "sugarmaker-v2.5.0-sugar4-w64.zip"
-          Expand-Archive "sugarmaker-v2.5.0-sugar4-w64.zip" -DestinationPath "sugarmaker-v2.5.0-sugar4-w64"
+          Expand-Archive "sugarmaker-v2.5.0-sugar4-w64.zip" -DestinationPath ".\sugarmaker-v2.5.0-sugar4-w64"
 
       - name: Start
         run: |
